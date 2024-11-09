@@ -5,9 +5,31 @@
 }
 
 body {
+    font-family: sans-serif;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     justify-content: center;
-    margin: 50px;
+    margin: 20px;
+}
+
+#header {
+    display: flex;
+    gap: 50px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: white;
+    background-color: black;
+    width: 400px;
+}
+
+button:hover {
+    background-color: red;
 }
 
 div.container {
@@ -19,7 +41,4 @@ div.container {
     flex-wrap: wrap;
 }
 
-/* div.box {
-    border: 2px solid rgba(0, 0, 0, 0.406); 
-} */
 
