@@ -19,10 +19,15 @@ body {
     gap: 50px;
 }
 
+h1 {
+    font-size: 36px;
+}
+
 button {
     padding: 10px;
     border-radius: 10px;
     font-size: 24px;
+    font-weight: 900;
     color: white;
     background-color: black;
     width: 400px;
@@ -34,9 +39,9 @@ button:hover {
 
 div.container {
     flex-shrink: 0;
-    border: 2px solid rgba(0, 0, 0, 0.406); 
-    width: 804px;
-    height: 804px;
+    border: 5px solid rgba(0, 0, 0, 0.406); 
+    width: 810px;
+    height: 810px;
     display: flex;
     flex-wrap: wrap;
 }
